@@ -1,9 +1,13 @@
-#include <stdio.h>
 /*
- * Write a program that prints all single digit numbers
+ * File: 6-print_numberz.c
+ * Author: Onil 
+ */ 
+
+#include <stdio.h>
+
+/**
+ * main -  prints all single digit numbers 
  * of base 10 starting from 0, followed by a new line.
- *
- * Return: will alwyas be 0
  */
 
 int main(void)
