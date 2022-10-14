@@ -1,11 +1,16 @@
+/*
+ * File: 7-print_tebahpla.c
+ * Auth: Onil
+ */
+
 #include <stdio.h>
 
 /**
- * Created by; Onil
- * main, prints the lowercase alphabet in reverse.
+ * main - Prints the lowercase alphabet in reverse.
  *
- * Return wiil be 0
+ * Return: Always 0.
  */
+
 int main(void)
 {
 	char letter;
