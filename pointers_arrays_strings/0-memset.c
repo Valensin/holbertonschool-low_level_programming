@@ -5,6 +5,8 @@
 
 #include "Holberton.h"
 #include "HOLBERTON.H"
+#include <stdlib.h>
+#include <stdio.h>
 
 /**
  * memset - Fills the first n bytes of the memory area
