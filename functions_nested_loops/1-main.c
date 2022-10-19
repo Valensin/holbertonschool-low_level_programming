@@ -1,8 +1,3 @@
-/*
- * Author: Onil
- * File: 1-main.h
- */
-
 #include "main.h"
 
 /**

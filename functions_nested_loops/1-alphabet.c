@@ -2,7 +2,7 @@
  * Auhtor: Onil
  * File: 1-alphabet.c
  */
-#include <stdio.h>
+
 #include "main.h"
 /**
  * main - Write a function that prints the alphabet, in lowercase, followed by a new line.
@@ -10,15 +10,13 @@
  * Return: Always 0
  */
 
-int main (void)
-
+ void print_alphabet(void)
 {
-	char x;
+	char alpha;
 
-	for (x = 'a'; x <= 'z'; x++)
-		putchar(x);
-
-	putchar('\n');
-
-	return (0);
+	for (alpha = 'a'; alpha <= 'z'; alpha++)
+	
+	_putchar(alpha);
+	
+	_putchar('\n');
 }
