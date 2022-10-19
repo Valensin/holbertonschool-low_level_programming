@@ -3,7 +3,7 @@
  * File: 1-alphabet.c
  */
 #include <stdio.h>
-
+#include "main.h"
 /**
  * main - Write a function that prints the alphabet, in lowercase, followed by a new line.
  *
@@ -13,10 +13,10 @@
 int main (void)
 
 {
-	char letter;
+	char x;
 
-	for (letter = 'a'; letter <= 'z'; letter++)
-		putchar(letter);
+	for (x = 'a'; x <= 'z'; x++)
+		putchar(x);
 
 	putchar('\n');
 
