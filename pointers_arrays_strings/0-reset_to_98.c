@@ -1,5 +1,17 @@
-#include <stdio.h>
+/*
+ * Author: Onil
+ * File: 0-reset_to_98.c
+ */
+#include "main.h"
+/**
+  * reset_to_98 - Updates the value it points to 98
+  * @n: pointer to n
+  *
+  * Return: void
+  */
 
-	int main()
-
+void reset_to_98(int *n)
+{
+	*n = 98;
+}
 
