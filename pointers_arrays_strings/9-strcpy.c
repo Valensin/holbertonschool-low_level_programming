@@ -9,21 +9,23 @@
  * _strcpy - it copies the string pointed to,
  * by src to buffer pointed to by dest
  *
- * @src: source to copy
+ * @src: source of value
  * @dest: destination of copy
  *
  * Return: pointer to dest
  */
+
 char *_strcpy(char *dest, char *src)
 {
-	int x = 0;
+    int a;
 
-	while (*(src + x))
-	{
-		*(dest + x) = *(src + x);
-		x++;
-	}
-	*(dest + x) = '\0';
-	return (dest);
+    for (a = 0; src[a] != '\0'; a++)
+    {
+        dest[a] = src[a];
+    }
+
+    dest[a++] = '\0';
+
+    return (dest);
 }
 
