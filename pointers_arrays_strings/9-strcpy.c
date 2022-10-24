@@ -1,6 +1,6 @@
 /*
  * Author: Onil
- * File: 9-strcpy.c
+ * File: 9_strcpy.c
  */
 #include "main.h"
 
