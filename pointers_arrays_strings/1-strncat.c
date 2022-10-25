@@ -1,6 +1,6 @@
 /*
  * Author: Onil
- * File: 1-strncat.c
+ * File: 1_strncat.c
  */
 #include "main.h"
 
