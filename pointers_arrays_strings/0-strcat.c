@@ -1,10 +1,9 @@
 /*
  * Author: Onil
- * File: 0-strcat.c
+ * File: 0_strcat.c
  */
 
 #include "main.h"
-#include <stdio.h>
 
 /**
   * _strcat - Concatenates the two strings
