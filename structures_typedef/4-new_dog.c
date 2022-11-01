@@ -5,7 +5,7 @@ int _strlen(char *s);
 char *_strcpy(char *dest, char *src);
 
 /**
-  * dawg - new dog
+  * new_dog - new dog
   * @name: name of the dog
   * @age: age of the dog
   * @owner: the name of the owner
