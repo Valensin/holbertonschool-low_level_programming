@@ -1,12 +1,12 @@
 /*
  * Author: Onil
- * File: 1-memcpy.c
+ * File: 1_memcpy.c
  */
 
 #include "main.h"
 
 /**
-  * _memcpy - copy memory area
+  * _memcpy _ copy memory area
   * @dest: dest memory area
   * @src: source memory area
   * @n: bytes from memory area to copy
