@@ -1,8 +1,3 @@
-/*
- * Author: Onil
- * File: 1_memcpy.c
- */
-
 #include "main.h"
 
 /**
