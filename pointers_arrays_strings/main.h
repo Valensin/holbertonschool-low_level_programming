@@ -1,29 +1,32 @@
+#ifndef HEADER_H
+#define HEADER_H
+
+/**
+ * File: main.h
+ * Author: Onil
+ * Desc: Header contains prototypes for all functions
+ * used in pointers_arrays_strings directory.
+ */
+
+#include <stddef.h>
 int _putchar(char c);
 
-int _strlen(char *s);
+void *_memset(void *s, int c, size_t n);
 
-void reset_to_98(int *n);
+char *_memcpy(char *dest, char *src, unsigned int n);
 
-void swap_int(int *a, int *b);
+char *_strchr(char *s, char c);
 
-void _puts(char *str);
+unsigned int _strspn(char *s, char *accept);
 
-void print_rev(char *s);
+char *_strpbrk(char *s, char *accept);
 
-void rev_string(char *s);
+char *_strstr(char *haystack, char *needle);
 
-void puts2(char *str);
+void print_chessboard(char (*a)[8]);
 
-void puts_half(char *str);
+void print_diagsums(int *a, int size);
 
-void print_array(int *a, int n);
+void set_string(char **s, char *to);
 
-char *_strcpy(char *dest, char *src);
-
-char *_strcat(char *dest, char *src);
-
-char *_strncat(char *dest, char *src, int n);
-
-char *_strncpy(char *dest, char *src, int n);
-
-int _strcmp(char *s1, char *s2);
+#endif
