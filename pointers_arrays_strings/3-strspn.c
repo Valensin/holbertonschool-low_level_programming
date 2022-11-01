@@ -1,6 +1,6 @@
 /*
  * Author: Onil
- * File: 3-strspn.c
+ * File: 3_strspn.c
  */
 
 #include "main.h"
