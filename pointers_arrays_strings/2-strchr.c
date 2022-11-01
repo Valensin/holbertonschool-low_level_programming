@@ -1,8 +1,3 @@
-/*
- * Author: Onil
- * File: 2_strchr.c
- */
-
 #include "main.h"
 
 /**
