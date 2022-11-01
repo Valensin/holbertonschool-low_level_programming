@@ -1,6 +1,6 @@
 /*
  * Author: Onil
- * File: 5-strstr.c
+ * File: 5_strstr.c
  */
 #include "main.h"
 
