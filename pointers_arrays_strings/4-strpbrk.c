@@ -1,6 +1,6 @@
 /*
  * Author: Onil
- * File: 4-strpbrk.c
+ * File: 4_strpbrk.c
  */
 #include "main.h"
 
