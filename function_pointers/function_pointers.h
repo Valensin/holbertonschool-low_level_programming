@@ -1,8 +1,3 @@
-/*
- * Auth: Onil
- * File: function_pointers.h
- */
-
 #include <stdlib.h>
 
 /**
