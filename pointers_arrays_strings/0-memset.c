@@ -1,12 +1,6 @@
-/*
- * Author: Onil
- * File: 0_memset.c
- */
-
 #include "main.h"
-
 /**
-  * _memset _ Fill memory with a constant byte
+  * _memset - Fill memory with a constant byte
   * @s: memory area to fill
   * @b: constant byte to fill
   * @n: bytes of memory area to fill
