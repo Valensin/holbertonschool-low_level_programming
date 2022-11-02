@@ -1,5 +1,5 @@
-#ifndef HEAD_
-#define HEAD_
+#ifndef HEADFUNCTION_
+#define HEADFUNCTION_
 #include <stdlib.h>
 
 void print_name(char *name, void (*f)(char *));
